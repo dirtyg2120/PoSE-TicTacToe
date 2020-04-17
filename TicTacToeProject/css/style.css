@@ -1,0 +1,50 @@
+body{
+	font-family: Arial;
+	width: 1000px;
+	margin: 0px auto;
+}
+
+#menu_top {
+	background: #33373e;
+	height: 50px;
+	overflow: hidden;
+}
+
+#banner {
+	background: #febd4b;
+	height: 250px;
+}
+
+#main {
+	background: gray;
+	height: 1000px;	
+}
+
+#footer {
+	background: blue;
+	height: 200px;
+}
+
+#menu_top a {
+	float: left;
+	color: #f2f2f2;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 17px;
+}
+
+#menu_top a:hover {
+	background: #ddd;
+	color: green;
+}
+
+#menu_top a.activate {
+	background: #4CAF50;
+	color: white;
+}
+
+#menu_top a.right {
+	float: right;
+}
+
