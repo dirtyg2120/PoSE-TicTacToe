@@ -26,9 +26,8 @@ body{
 }
 
 #main #left {
-	background: orange;
-	height: 1000px;
-	width: 150px;
+	height: 547px;
+	width: 240px;
 	float: left;
 }
 
@@ -36,14 +35,14 @@ body{
 	background: white;
 	margin-left: 5px;
 	margin-right: 5px;
-	height: 1000px;
-	width: 540px;
+	height: 547px;
+	width: 450px;
 	float: left;
 }
 
 #main #right {
 	background: white;
-	height: 1000px;
+	height: 547px;
 	width: 300px;
 	float: left;
 }
@@ -51,7 +50,7 @@ body{
 #footer {
 	margin: 0px auto;
 	width: 1000px;
-	background: blue;
+	background: #34495e;
 	height: 200px;
 	clear: left;
 }
@@ -68,16 +67,12 @@ body{
 
 #menu_top a:hover {
 	background: #ddd;
-	color: green;
+	color: #16a085;
 }
 
 #menu_top a.activate {
-	background: #4CAF50;
+	background: #16a085;
 	color: white;
-}
-
-#menu_top a.right {
-	float: right;
 }
 
 
@@ -86,27 +81,133 @@ body{
 	height: 300px;
 }
 
-#main #mid ul {
-	margin-top: -10px;
-	padding: 0px;
+#main #left .box{
+    width: 220px;
+    position: absolute;
+    padding: 5px 10px 0px 10px;
+	background: #191919;
 }
 
-#main #mid ul li {
-	margin-top: 0px;
-	padding: 5px 10px;
-	list-style: none;
+#main #left .box h1{
+	float: left;
+	color: white;
+	font-size: 25px;
+	border-bottom: 5px solid #16a085;
+	margin-bottom: 20px;
+	padding: 0px 0px 5px 0px;
+}
+
+#main #left .textbox{
+	width: 100%;
+	overflow: hidden;
+	font-size: 18px;
+	padding: 6px 0;
+	margin: 6px 0;
+	border-bottom: 1px solid #16a085;
+}
+
+#main #left .textbox i{
+	float: left;
+	width: 26px;
+	text-align: center;
+	color: white;
+	padding: 3px;
+}
+
+#main #left .textbox input{
+	border: none;
+	outline: none;
+	background: none;
+	color: white;
+	font-size: 18px;
+	width: 140px;
+	float: left;
+}
+
+#main #left .btn{
+	margin-top: 10px;
+	width: 100%;
+	background: none;
+	border: 2px solid #16a085;
+	color: white;
+	padding: 7px;
+	font-size: 18px;
+	cursor: pointer;
+}
+
+#main #left .btn:hover{
+	background: #16a085;
+}
+
+#main #left h5 {
+	color: grey;
+	text-align: center;
+	font-weight: 200;
+	margin-bottom: 15px;
+}
+
+#main #left button {
+	width: 100px;
+	background: none;
+	border: 2px solid #16a085;
+	color: white;
 	font-size: 14px;
-	border-bottom: 1px dashed grey;
+	padding: 5px;
+	margin: 0px 0px 30px 6px;
+	cursor: pointer;
 }
 
-#main #mid h3 {
-	height: 40px;
-	line-height: 40px;
-	background: grey;
-	margin-top: 0px;
+#main #left button:hover{
+	background: #16a085;
 }
 
-#main #mid img {
+#main #left button i {
+	padding: 5px;
+}
+
+#main #mid #news {
+	display: block;
+}
+
+#main #mid #news ul {
+	margin-top: -10px;
+	padding: 5px 15px 10px 10px;
+	list-style-type: none;
+	clear: both;
+	border: 3px solid #16a085;
+	border-top:none;
+}
+
+#main #mid #news ul li {
+	margin-top: 8px;
+	border-bottom: 1px dashed #aea384;
+}
+
+#main #mid #news ul li a {
+	font-weight: bold;
+	font-size: 12px;
+	text-decoration: none;
+}
+
+#main #mid #news ul li a span {
+	width: 40px;
+	float: right;
+	text-align: right;
+}
+
+#main #mid #news ul li a:hover {
+	color: red;
+}
+
+#main #mid #news h3 {
+    height: 40px;
+    line-height: 43px;
+    background: #16a085;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+#main #mid #news img {
 	margin-top: 4px;
 	margin-bottom: 4px;
 	padding: 0px 10px 0px 10px;
@@ -114,12 +215,19 @@ body{
 	width: 32px;
 }
 
+#main #right img {
+	float: left;
+    width: 35px;
+    margin: 3px 0px 0px 10px;
+
+}
+
 #main #right h3 {
 	height: 40px;
 	line-height: 40px;
 	background: yellow;
 	margin-top: 0px;
-	text-indent: 30px;
+	text-indent: 8px;
 }
 
 #main #right ul {
@@ -138,4 +246,28 @@ body{
     margin: -9px 25px 0px -30px;
 	float: left;
 
+}
+
+
+#footer #about {
+	width: 400px;
+	float: left;
+}
+
+#footer #quick-link {
+	width: 300px;
+	float: left;
+}
+
+#footer #quick-link {
+	width: 300px;
+	float: left;
+}
+
+#copy-right {
+	width: 1000px;
+	clear: left;
+	height: 40px;
+	background: orange;
+	margin: 0px auto;
 }
