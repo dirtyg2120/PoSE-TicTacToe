@@ -26,7 +26,7 @@ body{
 }
 
 #main #left {
-	height: 547px;
+	height: 700px;
 	width: 240px;
 	float: left;
 }
@@ -35,14 +35,14 @@ body{
 	background: white;
 	margin-left: 5px;
 	margin-right: 5px;
-	height: 547px;
+	height: 700px;
 	width: 450px;
 	float: left;
 }
 
 #main #right {
 	background: white;
-	height: 547px;
+	height: 700px;
 	width: 300px;
 	float: left;
 }
@@ -50,8 +50,9 @@ body{
 #footer {
 	margin: 0px auto;
 	width: 1000px;
-	background: #34495e;
-	height: 200px;
+	background: #303036;
+	color: #d3d3d3;
+	height: 240px;
 	clear: left;
 }
 
@@ -67,11 +68,11 @@ body{
 
 #menu_top a:hover {
 	background: #ddd;
-	color: #16a085;
+	color: #2e8775;
 }
 
 #menu_top a.activate {
-	background: #16a085;
+	background: #2e8775;
 	color: white;
 }
 
@@ -92,7 +93,7 @@ body{
 	float: left;
 	color: white;
 	font-size: 25px;
-	border-bottom: 5px solid #16a085;
+	border-bottom: 5px solid #2e8775;
 	margin-bottom: 20px;
 	padding: 0px 0px 5px 0px;
 }
@@ -103,7 +104,7 @@ body{
 	font-size: 18px;
 	padding: 6px 0;
 	margin: 6px 0;
-	border-bottom: 1px solid #16a085;
+	border-bottom: 1px solid #2e8775;
 }
 
 #main #left .textbox i{
@@ -128,7 +129,7 @@ body{
 	margin-top: 10px;
 	width: 100%;
 	background: none;
-	border: 2px solid #16a085;
+	border: 2px solid #2e8775;
 	color: white;
 	padding: 7px;
 	font-size: 18px;
@@ -136,7 +137,7 @@ body{
 }
 
 #main #left .btn:hover{
-	background: #16a085;
+	background: #2e8775;
 }
 
 #main #left h5 {
@@ -149,7 +150,7 @@ body{
 #main #left button {
 	width: 100px;
 	background: none;
-	border: 2px solid #16a085;
+	border: 2px solid #2e8775;
 	color: white;
 	font-size: 14px;
 	padding: 5px;
@@ -158,7 +159,7 @@ body{
 }
 
 #main #left button:hover{
-	background: #16a085;
+	background: #2e8775;
 }
 
 #main #left button i {
@@ -174,7 +175,7 @@ body{
 	padding: 5px 15px 10px 10px;
 	list-style-type: none;
 	clear: both;
-	border: 3px solid #16a085;
+	border: 3px solid #2e8775;
 	border-top:none;
 }
 
@@ -202,7 +203,7 @@ body{
 #main #mid #news h3 {
     height: 40px;
     line-height: 43px;
-    background: #16a085;
+    background: #2e8775;
     margin-top: 0px;
     margin-bottom: 10px;
 }
@@ -250,24 +251,131 @@ body{
 
 
 #footer #about {
-	width: 400px;
+	width: 430px;
 	float: left;
 }
 
+#footer #about h4 {
+	text-indent: 30px;
+	font-size: 20px;
+}
+
+#footer #about #info-contact {
+	text-indent: 9px;
+}
+
+#footer #about #info-contact i {
+	padding: 3px;
+}
+
 #footer #quick-link {
+	width: 270px;
+	float: left;
+}
+
+#footer #quick-link h4 {
+	text-indent: 40px;
+	font-size: 20px;
+}
+
+#footer #quick-link ul {
+	margin-left: 35px;
+}
+
+#footer #quick-link ul li a {
+	text-decoration: none;
+	color: #d3d3d3;
+}
+
+#footer #contact-us {
 	width: 300px;
 	float: left;
 }
 
-#footer #quick-link {
-	width: 300px;
-	float: left;
+#footer #contact-us h4 {
+	font-size: 20px;
+}
+
+#footer #contact-us #enter-mail {
+	overflow: hidden;
+	border-radius: 5px;
+	width: 85%;
+	padding: 6px 0;
+	margin: 6px 0;
+	background: #272727;
+}
+
+#footer #contact-us #enter-mail input{
+	background: none;
+	border: none;
+	outline: none;
+	color: #d3d3d3;
+	font-size: 15px;
+	text-indent: 5px;
+	width: 100%;
+}
+
+#footer #contact-us #enter-message {
+	overflow: hidden;
+	border-radius: 5px;
+	width: 85%;
+	height: 70px;
+	margin: 6px 0;
+	vertical-align: top;
+	background: #272727;
+}
+
+#footer #contact-us #enter-message input{
+	background: none;
+	border: none;
+	outline: none;
+	color: #d3d3d3;
+	font-size: 15px;
+	text-indent: 5px;
+	width: 100%;
+	padding-top: 6px;
+}
+
+#footer #contact-us button {
+	float: right;
+	background: #2e8775;
+	border: 2px solid #2e8775;
+	border-radius: 5px;
+	color: white;
+	font-size: 14px;
+	padding: 8px;
+	margin-right: 45px;
+	cursor: pointer;
+}
+
+#footer #contact-us button i {
+	margin-right: 10px;
 }
 
 #copy-right {
 	width: 1000px;
 	clear: left;
 	height: 40px;
-	background: orange;
+	line-height: 40px;
+	color: #d3d3d3;
+	background: #303036;
 	margin: 0px auto;
+	text-align: center;
+	border-top: 2px solid grey;
 }
+
+	/*border: none;
+	outline: none;
+	background: none;
+	color: white;
+	font-size: 18px;
+	width: 140px;
+	float: left;
+
+
+		width: 100%;
+	overflow: hidden;
+	font-size: 18px;
+	padding: 6px 0;
+	margin: 6px 0;
+	border-bottom: 1px solid #2e8775;*/
