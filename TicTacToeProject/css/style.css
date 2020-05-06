@@ -5,11 +5,13 @@ body{
 }
 
 #menu_top {
-	background: #33373e;
+	background: #554360;
 	height: 50px;
 	overflow: hidden;
 	margin: 0px auto;
 	width: 1000px;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
 }
 
 #banner {
@@ -29,15 +31,16 @@ body{
 	height: 700px;
 	width: 240px;
 	float: left;
+	margin-bottom: 5px;
 }
 
 #main #mid {
 	background: white;
-	margin-left: 5px;
-	margin-right: 5px;
+	margin: 0px 5px 5px 5px;
 	height: 700px;
 	width: 450px;
 	float: left;
+	border-radius: 10px;
 }
 
 #main #right {
@@ -45,6 +48,8 @@ body{
 	height: 700px;
 	width: 300px;
 	float: left;
+	border-radius: 10px;
+	margin-bottom: 5px;
 }
 
 #footer {
@@ -54,6 +59,8 @@ body{
 	color: #d3d3d3;
 	height: 240px;
 	clear: left;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
 }
 
 #menu_top a {
@@ -68,11 +75,11 @@ body{
 
 #menu_top a:hover {
 	background: #ddd;
-	color: #2e8775;
+	color: #4aa9d2;
 }
 
 #menu_top a.activate {
-	background: #2e8775;
+	background: #4aa9d2;
 	color: white;
 }
 
@@ -86,14 +93,15 @@ body{
     width: 220px;
     position: absolute;
     padding: 5px 10px 0px 10px;
-	background: #191919;
+	background: white;
+	border-radius: 10px;
 }
 
 #main #left .box h1{
 	float: left;
-	color: white;
+	color: black;
 	font-size: 25px;
-	border-bottom: 5px solid #2e8775;
+	border-bottom: 5px solid #4aa9d2;
 	margin-bottom: 20px;
 	padding: 0px 0px 5px 0px;
 }
@@ -104,14 +112,14 @@ body{
 	font-size: 18px;
 	padding: 6px 0;
 	margin: 6px 0;
-	border-bottom: 1px solid #2e8775;
+	border-bottom: 1px solid #4aa9d2;
 }
 
 #main #left .textbox i{
 	float: left;
 	width: 26px;
 	text-align: center;
-	color: white;
+	color: black;
 	padding: 3px;
 }
 
@@ -119,7 +127,7 @@ body{
 	border: none;
 	outline: none;
 	background: none;
-	color: white;
+	color: black;
 	font-size: 18px;
 	width: 140px;
 	float: left;
@@ -128,16 +136,12 @@ body{
 #main #left .btn{
 	margin-top: 10px;
 	width: 100%;
-	background: none;
-	border: 2px solid #2e8775;
+	background: #4aa9d2;
+	border: 2px solid #4aa9d2;
 	color: white;
 	padding: 7px;
 	font-size: 18px;
 	cursor: pointer;
-}
-
-#main #left .btn:hover{
-	background: #2e8775;
 }
 
 #main #left h5 {
@@ -150,8 +154,8 @@ body{
 #main #left button {
 	width: 100px;
 	background: none;
-	border: 2px solid #2e8775;
-	color: white;
+	border: 2px solid #4aa9d2;
+	color: black;
 	font-size: 14px;
 	padding: 5px;
 	margin: 0px 0px 30px 6px;
@@ -159,7 +163,7 @@ body{
 }
 
 #main #left button:hover{
-	background: #2e8775;
+	background: #4aa9d2;
 }
 
 #main #left button i {
@@ -175,7 +179,7 @@ body{
 	padding: 5px 15px 10px 10px;
 	list-style-type: none;
 	clear: both;
-	border: 3px solid #2e8775;
+	border: 3px solid #4aa9d2;
 	border-top:none;
 }
 
@@ -203,9 +207,11 @@ body{
 #main #mid #news h3 {
     height: 40px;
     line-height: 43px;
-    background: #2e8775;
+    background: #4aa9d2;
     margin-top: 0px;
     margin-bottom: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
 }
 
 #main #mid #news img {
@@ -220,15 +226,16 @@ body{
 	float: left;
     width: 35px;
     margin: 3px 0px 0px 10px;
-
 }
 
 #main #right h3 {
 	height: 40px;
 	line-height: 40px;
-	background: yellow;
+	background: #f7c044;
 	margin-top: 0px;
 	text-indent: 8px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
 }
 
 #main #right ul {
@@ -238,15 +245,24 @@ body{
 
 #main #right ul li {
 	list-style: none;
-	border-bottom: 2px solid orange;
+	border-bottom: 2px solid #f7c044;
 	padding: 15px 0px 15px 60px;
+		clear: left;
+}
+
+#main #right ul li h4 {
+	font-size: 20px;
+	float: left;
+	display: block;
+	margin: -5px 60px 0px -35px;
+	border-right
+	padding: 0px 25px 0px 0px;
 }
 
 #main #right ul li img {
 	width: 30px;
     margin: -9px 25px 0px -30px;
 	float: left;
-
 }
 
 
@@ -338,8 +354,8 @@ body{
 
 #footer #contact-us button {
 	float: right;
-	background: #2e8775;
-	border: 2px solid #2e8775;
+	background: #4aa9d2;
+	border: 2px solid #4aa9d2;
 	border-radius: 5px;
 	color: white;
 	font-size: 14px;
@@ -363,19 +379,3 @@ body{
 	text-align: center;
 	border-top: 2px solid grey;
 }
-
-	/*border: none;
-	outline: none;
-	background: none;
-	color: white;
-	font-size: 18px;
-	width: 140px;
-	float: left;
-
-
-		width: 100%;
-	overflow: hidden;
-	font-size: 18px;
-	padding: 6px 0;
-	margin: 6px 0;
-	border-bottom: 1px solid #2e8775;*/

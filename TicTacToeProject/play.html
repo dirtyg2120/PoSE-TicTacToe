@@ -3,12 +3,10 @@
 	<head>
 		<meta charset="UTF-8">
 		<title>Tic Tac Toe</title>
-		<link rel="stylesheet" type="text/css" href="css/new_style.css">
+		<link rel="stylesheet" type="text/css" href="css/play_style.css">
 		<script src="https://kit.fontawesome.com/39248c2d37.js" crossorigin="anonymous"></script>
 	</head>
 	<body>
-		
-
 
 		<div id="banner">
 			<img src="image/banner.jpg" />
@@ -41,24 +39,41 @@
 			</div>
 
 			<div id="mid">
-				<h2>Function is still in development</h2>
+				<div id="room-level">
+					<img src="image/hall.png">
+					<h4>Hall</h4>
+					<h6>Online players: 0</h6>
+					<ul>
+						<li><button id="level"><i class="far fa-minus-square"></i> Beginner</button></li>
+							<li><button><i class="fas fa-square"></i> Room 1</button></li>
+							<li><button><i class="fas fa-square"></i> Room 2</button></li>
+							<li><button><i class="fas fa-square"></i> Room 3</button></li>
+						<li><button id="level"><i class="far fa-minus-square"></i> Elementary</button></li>
+							<li><button><i class="fas fa-square"></i> Room 1</button></li>
+							<li><button><i class="fas fa-square"></i> Room 2</button></li>
+							<li><button><i class="fas fa-square"></i> Room 3</button></li>
+						<li><button id="level"><i class="far fa-minus-square"></i> Intermediate</button></li>
+							<li><button><i class="fas fa-square"></i> Room 1</button></li>
+							<li><button><i class="fas fa-square"></i> Room 2</button></li>
+							<li><button><i class="fas fa-square"></i> Room 3</button></li>
+						<li><button id="level"><i class="far fa-minus-square"></i> Advanced</button></li>
+							<li><button><i class="fas fa-square"></i> Room 1</button></li>
+							<li><button><i class="fas fa-square"></i> Room 2</button></li>
+							<li><button><i class="fas fa-square"></i> Room 3</button></li>
+					</ul>
+				</div>
+
+				<div id="table">
+					<ul>
+						<li><a href="FullGraphic/index.html"><button><p>Table 1</p>Players: 0/2</button></a> <button><p>Table 2</p></button></li>
+						<li><button><p>Table 3</p></button> <button><p>Table 4</p></button></li>
+						<li><button><p>Table 5</p></button> <button><p>Table 6</p></button></li>
+						<li><button><p>Table 7</p></button> <button><p>Table 8</p></button></li>
+						<li><button><p>Table 9</p></button> <button><p>Table 10</p></button></li>
+					</ul>
+				</div>
 			</div>
 
-			<div id="right">
-				<img src="image/Ranking.png"><h3>Top 10</h3>
-				<ul>
-					<li><img src="image/avatar.png">Username</li>
-					<li><img src="image/avatar.png">Username</li>
-					<li><img src="image/avatar.png">Username</li>
-					<li><img src="image/avatar.png">Username</li>
-					<li><img src="image/avatar.png">Username</li>
-					<li><img src="image/avatar.png">Username</li>
-					<li><img src="image/avatar.png">Username</li>
-					<li><img src="image/avatar.png">Username</li>
-					<li><img src="image/avatar.png">Username</li>
-					<li><img src="image/avatar.png">Username</li>
-				</ul>
-			</div>
 		</div>
 
 		<div id="footer">
@@ -93,5 +108,6 @@
 			<i class="far fa-copyright"></i>
 			All Rights Reserved 2019-2020 | Designed by SomeOne
 		</div>
+
 	</body>
 </html>
