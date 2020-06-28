@@ -8,29 +8,18 @@
 		<script src="https://kit.fontawesome.com/39248c2d37.js" crossorigin="anonymous"></script>
 	</head>
 	<body>
-
-
 		<div id="banner">
 			<img src="{% static 'images/banner.jpg' %}" />
 		</div>
 		<div id="menu_top">
-			<a href="{% url 'index' %}">HOME</a>
-			<a href="{% url 'news' %}" class="activate">NEWS</a>
-			<a href="{% url 'downloads' %}">DOWNLOADS</a>
-			<a href="{% url 'about' %}">ABOUT US</a>
-			<a href="{% url 'play' %}">PLAY NOW</a>
+			<a href="{% url 'play' %}"><i class="fas fa-gamepad"></i> PLAY NOW</a>
+			<a href="{% url 'index' %}"><i class="fas fa-home"></i> HOME</a>
+			<a class="activate" href="{% url 'news' %}"><i class="fas fa-newspaper"></i> NEWS</a>
+			<a class="right-side" href="/register"><i class="fas fa-user-plus"></i> REGISTER</a>
+			<a class="right-side" href="/login"><i class="fas fa-sign-in-alt"></i> LOGIN</a>
 		</div>
+
 		<div id="main">
-			<div id="left">
-				<div id="box">
-					<h1>Login</h1>
-					<a href="/login"><button>Log in</button></a>
-					<h5> - Or login with - </h5>
-					<button><i class="fab fa-facebook-square"></i>Facebook</button>
-					<button><i class="fab fa-google"></i>Google</button>
-					<h5>Not a member? <a href="/register">Sign up now</a></h5>
-				</div>
-			</div>
 
 			<div id="mid">
 				<h2>Function is still in development</h2>

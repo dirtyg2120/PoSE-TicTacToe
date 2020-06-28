@@ -7,11 +7,5 @@ def index(request):
 def newsPage(request):
 	return render(request, 'pages/news.html')
 
-def downloadPage(request):
-	return render(request, 'pages/downloads.html')
-
-def aboutPage(request):
-	return render(request, 'pages/aboutus.html')
-
 def playPage(request):
 	return render(request, 'pages/play.html')
